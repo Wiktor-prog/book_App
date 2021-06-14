@@ -45,7 +45,6 @@
       thisBooks.favoriteBooks = [];
       thisBooks.filters = [];
     };
-
     renderBooks() {
       const thisBooks = this;
 
@@ -59,7 +58,6 @@
         thisBooks.bookList.appendChild(generatedDOM);
       };
     };
-
     initBookClickActions() {
       const thisBooks = this;
 
@@ -79,7 +77,6 @@
         };
       });
     };
-
     initFilterClickActions() {
       const thisBooks = this;
 
@@ -97,7 +94,6 @@
         thisBooks.filterBooks();
       });
     };
-
     filterBooks() {
       const thisBooks = this;
 
@@ -107,7 +103,7 @@
         for ( const filter of thisBooks.filters) {
           if (!hiddenBook.details[filter]) {
             shouldBeHidden = true;
-            break; //przerwanie działania funkcji
+            break; 
           };
         };
         const book = document.querySelector('.book__image[data-id="' + hiddenBook.id + '"]');
@@ -119,7 +115,6 @@
         };
       };
     };
-
     determineRatingBgc(rating) {
       const thisBooks = this;
 
@@ -135,7 +130,6 @@
       return thisBooks.ratingColor;
     };
   };
-
   const app = {
     init: function() {
       new Books();

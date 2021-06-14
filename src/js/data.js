@@ -4,8 +4,8 @@ dataSource.books = [
   {
     id: 1,
     name: 'Lady in red',
-    price: 20,
-    rating: 8,
+    price: 16,
+    rating: 8.1,
     image: 'images/books/1.jpg',
     details: {
       adults: true,
@@ -15,8 +15,8 @@ dataSource.books = [
   {
     id: 2,
     name: 'JS Design Patterns',
-    price: 15,
-    rating: 9.2,
+    price: 17,
+    rating: 9.4,
     image: 'images/books/2.jpg',
     details: {
       adults: false,
@@ -27,8 +27,8 @@ dataSource.books = [
     id: 3,
     name: 'Eloquent Javascript',
     image: 'images/books/3.jpg',
-    price: 20,
-    rating: 7.8,
+    price: 22,
+    rating: 6.2,
     details: {
       adults: false,
       nonFiction: true
@@ -38,8 +38,8 @@ dataSource.books = [
     id: 4,
     name: 'You don\'t know JS',
     image: 'images/books/4.jpg',
-    price: 40,
-    rating: 8.2,
+    price: 34,
+    rating: 7.5,
     details: {
       adults: false,
       nonFiction: true
@@ -49,8 +49,8 @@ dataSource.books = [
     id: 5,
     name: 'Of Mice and Men',
     image: 'images/books/5.jpg',
-    rating: 6.4,
-    price: 40,
+    rating: 4.9,
+    price: 32,
     details: {
       adults: false,
       nonFiction: false
